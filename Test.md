@@ -2,8 +2,8 @@
 
 View the book with "<i class="fa fa-book fa-fw"></i> Book Mode".
 
-Examples
----
+## Examples
+
 - [Book example](/s/book-example)
 - [Slide example](/s/slide-example)
 - [YAML metadata](/s/yaml-metadata)
@@ -15,8 +15,10 @@ Examples
 456
 789
 
-Themes
----
+![cat](/pic/cat.jpg =50%x)
+
+## Themes
+
 - [Dark theme](/theme-dark?both)
 - [Vertical alignment](/theme-vertical-writing?both)
 
