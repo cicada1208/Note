@@ -39,7 +39,7 @@ View the book with "<i class="fa fa-book fa-fw"></i> Book Mode".
 > We're living the future so
 > the present is our past.
 
-```javascript {.line-numbers}
+```javascript
 function add(x, y) {
   return x + y;
 }
@@ -78,11 +78,9 @@ A-->B;
 
 ---
 
-![pig](https://hackmd.io/_uploads/HkJ8Zz3UJl.jpg)
+![cat](pic/cat.jpg){width="50%"}
 
-![cat](/pic/cat.jpg){width="50%"}
-
-@import "/pic/cat.jpg" {width="50%" title="圖片標題" alt="我的 alt"}
+@import "pic/cat.jpg" {width="50%" title="圖片標題" alt="我的 alt"}
 
 ###### tags: `Templates` `Book`
 
