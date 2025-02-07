@@ -4,3 +4,7 @@ nav:
   - Test: test.md
 theme:
   name: material
+validation:
+  absolute_links: ignore
+  nav:
+    omitted_files: ignore
