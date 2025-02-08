@@ -8,3 +8,6 @@ validation:
   absolute_links: ignore
   nav:
     omitted_files: ignore
+markdown_extensions:
+  - toc:
+      permalink: 🔗
