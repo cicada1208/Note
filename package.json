@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "dev": "mkdocs serve --open",
+    "serve": "mkdocs serve --open",
     "build": "mkdocs build",
+    "deploy": "mkdocs gh-deploy",
     "setup": "pip install ."
   }
 }
