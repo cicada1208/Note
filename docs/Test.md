@@ -11,7 +11,7 @@ export_on_save:
   html: true
 ---
 
-# Collect your documents with a book
+# Collect your documents with a book {#collect}
 
 View the book with "<i class="fa fa-book fa-fw"></i> Book Mode".
 

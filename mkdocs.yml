@@ -11,3 +11,4 @@ validation:
 markdown_extensions:
   - toc:
       permalink: 🔗
+  - attr_list
