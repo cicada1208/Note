@@ -68,9 +68,6 @@ $ 1 + 2 $
 腳注 [^1]
 [^1]: This is a footnote
 
-腳注 2 [^2]
-[^2]: Test
-
 ```mermaid
 graph LR
 A-->B;
@@ -85,5 +82,3 @@ A-->B;
 @import "pic/cat.jpg" {width="50%" title="圖片標題" alt="我的 alt"}
 
 ###### tags: `Templates` `Book`
-
-@import "test2.md"
