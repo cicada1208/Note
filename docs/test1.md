@@ -75,7 +75,7 @@ A-->B;
 
 ---
 
-<img src='/pic/cat.jpg' width=10%/>
+<img src='../pic/cat.jpg' width=10%/>
 
 ![cat](pic/cat.jpg){width="50%"}
 
