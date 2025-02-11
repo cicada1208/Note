@@ -75,10 +75,10 @@ A-->B;
 
 ---
 
-<img src='../pic/cat.jpg' width=10%/>
+<img src='../test1/cat.jpg' width=10%/>
 
-![cat](pic/cat.jpg){width="50%"}
+![cat](test1/cat.jpg){width="50%"}
 
-@import "pic/cat.jpg" {width="50%" title="圖片標題" alt="我的 alt"}
+@import "test1/cat.jpg" {width="50%" title="圖片標題" alt="我的 alt"}
 
 ###### tags: `Templates` `Book`

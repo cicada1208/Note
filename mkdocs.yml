@@ -1,4 +1,5 @@
 site_name: Note
+site_url: https://cicada1208.github.io/Note/
 nav:
   - Home: index.md
   - Test: test1.md
