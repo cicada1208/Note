@@ -1,4 +1,4 @@
-name: gh-ci
+name: gh-cicd
 on:
   push:
     branches:
