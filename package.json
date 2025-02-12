@@ -2,7 +2,7 @@
   "scripts": {
     "serve": "mkdocs serve --open",
     "build": "mkdocs build",
-    "deploy": "mkdocs gh-deploy",
+    "deploy": "mkdocs gh-deploy --force",
     "setup": "pip install ."
   }
 }
