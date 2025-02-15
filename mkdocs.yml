@@ -21,6 +21,10 @@ theme:
   features:
     - content.code.copy
     - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.indexes
+    - navigation.top
 validation:
   absolute_links: ignore
   nav:
