@@ -25,11 +25,14 @@ theme:
     - navigation.instant.progress
     - navigation.indexes
     - navigation.top
-validation:
-  absolute_links: ignore
-  nav:
-    omitted_files: ignore
+    - search.suggest
+    - search.highlight
+    - search.share
 markdown_extensions:
   - toc:
       permalink: 🔗
   - attr_list
+validation:
+  absolute_links: ignore
+  nav:
+    omitted_files: ignore
