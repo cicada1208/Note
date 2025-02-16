@@ -3,6 +3,7 @@ site_url: https://cicada1208.github.io/Note/
 nav:
   - Home: index.md
   - Test: test.md
+  - Tags: tags.md
 theme:
   name: material
   palette:
@@ -33,6 +34,7 @@ markdown_extensions:
       permalink: 🔗
   - attr_list
 plugins:
+  - search
   - tags
 validation:
   absolute_links: ignore

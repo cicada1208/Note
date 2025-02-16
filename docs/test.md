@@ -9,6 +9,11 @@ print_background: true
 
 export_on_save:
   html: true
+
+tags:
+  - HTML5
+  - JavaScript
+  - CSS
 ---
 
 # Collect your documents with a book {#collect}
@@ -80,5 +85,3 @@ A-->B;
 ![cat](test/cat.jpg){width="50%"}
 
 @import "test/cat.jpg" {width="50%" title="圖片標題" alt="我的 alt"}
-
-###### tags: `Templates` `Book`
