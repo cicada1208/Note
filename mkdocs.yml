@@ -32,6 +32,8 @@ markdown_extensions:
   - toc:
       permalink: 🔗
   - attr_list
+plugins:
+  - tags
 validation:
   absolute_links: ignore
   nav:
