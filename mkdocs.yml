@@ -1,9 +1,17 @@
 site_name: Note
-site_url: https://cicada1208.github.io/Note/
+# if setting up site_url, don't use default --dev-addr of mkdocs serve
+site_url: https://cicada1208.github.io/Note
+repo_url: https://github.com/cicada1208/Note
+repo_name: cicada1208/Note
+edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Test: test.md
   - Tags: tags.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cicada1208/Note
 theme:
   name: material
   palette:
@@ -21,6 +29,8 @@ theme:
         name: Switch to light mode
   features:
     - content.code.copy
+    - content.action.edit
+    - content.action.view
     - navigation.footer
     - navigation.instant
     - navigation.instant.progress
@@ -36,6 +46,9 @@ markdown_extensions:
 plugins:
   - search
   - tags
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: iso_datetime
 validation:
   absolute_links: ignore
   nav:
