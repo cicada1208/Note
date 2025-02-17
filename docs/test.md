@@ -16,7 +16,7 @@ tags:
   - CSS
 ---
 
-# Collect your documents with a book {#collect}
+# Collect your documents with a book1 {#collect}
 
 View the book with "<i class="fa fa-book fa-fw"></i> Book Mode".
 
