@@ -1,4 +1,5 @@
 ---
+# the front matters of Markdown Preview Enhanced
 html:
   embed_local_images: false
   embed_svg: false
@@ -10,13 +11,14 @@ print_background: true
 export_on_save:
   html: true
 
+# the front matters of Material for MkDocs
 tags:
   - HTML5
   - JavaScript
   - CSS
 ---
 
-# Collect your documents with a book1 {#collect}
+# Collect your documents with a book {#collect}
 
 View the book with "<i class="fa fa-book fa-fw"></i> Book Mode".
 
