@@ -33,7 +33,7 @@ tags:
 
 - 數學式 $ 1 + 2 $
 
-## Link with tooltip {#tooltip}
+## Link with tooltip {#link-tooltip}
 
 [Hover me](https://example.com "I'm a tooltip!")
 
@@ -62,12 +62,16 @@ tags:
 
 ## Block
 
-使用 `行內代碼` 。
+使用 `行內代碼` 展示。
 
 > We're living the future so
 > the present is our past.
 
-!!! note
+???+ note inline end "Customed Title"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+!!! tip "Customed Title"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
