@@ -13,44 +13,35 @@ export_on_save:
 
 # the front matters of Material for MkDocs
 tags:
-  - HTML5
-  - JavaScript
-  - CSS
+  - Basic
+  - Extension
 ---
 
-# Collect your documents with a book {#collect}
+# Markdown basics & extensions
 
-View the book with "<i class="fa fa-book fa-fw"></i> Book Mode".
+## Font style
 
-## Examples
+- **Bold**
 
-- [Book example](/s/book-example)
-- [Slide example](/s/slide-example)
-- [YAML metadata](/s/yaml-metadata)
-- [Features](/s/features)
+- ~~Strikethrough~~
 
-## Themes
+- ==high light==
 
-- [Dark theme](/theme-dark?both)
-- [Vertical alignment](/theme-vertical-writing?both)
+- 上標 30^th^
 
-## Test
+- 下標 H~2~O
 
-123
-~~**456**~~
+- 數學式 $ 1 + 2 $
 
-==highlight==
+## Link with tooltip {#tooltip}
 
-我覺得你應該在這裡使用 `行內代碼` 才對。
+[Hover me](https://example.com "I'm a tooltip!")
 
-> We're living the future so
-> the present is our past.
+## Icon with tooltip
 
-```javascript
-function add(x, y) {
-  return x + y;
-}
-```
+:material-information-outline:{ title="Important information" }
+
+## List
 
 - Item 1
 - Item 2
@@ -62,18 +53,34 @@ function add(x, y) {
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
+## Table
+
 | First Header                |    Second Header    |
 | --------------------------- | :-----------------: |
 | Content from cell 1         | Content from cell 2 |
 | Content in the first column |                     |
 
-上標 30^th^
-下標 H~2~O
+## Block
 
-$ 1 + 2 $
+使用 `行內代碼` 。
+
+> We're living the future so
+> the present is our past.
+
+!!! note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+```javascript
+function add(x, y) {
+  return x + y;
+}
+```
 
 腳注 [^1]
 [^1]: This is a footnote
+
+## Diagram
 
 ```mermaid
 graph LR
@@ -82,7 +89,9 @@ A-->B;
 
 ---
 
-<img src='../test/cat.jpg' width=10%/>
+## Picture
+
+<img src='../test/cat.jpg' width=30%/>
 
 ![cat](test/cat.jpg){width="50%"}
 

@@ -30,6 +30,7 @@ theme:
         name: Switch to light mode
   features:
     - content.code.copy
+    - content.tooltips
     - content.action.edit
     - content.action.view
     - navigation.footer
@@ -44,12 +45,18 @@ markdown_extensions:
   - toc:
       permalink: 🔗
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 plugins:
   - search
   - tags
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: iso_datetime
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: iso_datetime
 validation:
   absolute_links: ignore
   nav:
