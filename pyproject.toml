@@ -3,5 +3,6 @@ name = "Note"
 version = "0.1.0"
 dependencies = [
   "mkdocs-material",
-  "mkdocs-git-revision-date-localized-plugin"
+  "mkdocs-git-revision-date-localized-plugin",
+  "mkdocs-glightbox"
 ]

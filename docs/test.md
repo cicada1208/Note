@@ -95,8 +95,5 @@ A-->B;
 
 ## Picture
 
-<img src='../test/cat.jpg' width=30%/>
-
-![cat](test/cat.jpg){width="50%"}
-
-@import "test/cat.jpg" {width="50%" title="圖片標題" alt="我的 alt"}
+![cat](test/cat.jpg){data-title="title" data-description="description" width="30%"}
+![cat](test/cat.jpg){data-description="description" width="30%"}
