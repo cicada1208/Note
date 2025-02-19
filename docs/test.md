@@ -95,5 +95,7 @@ A-->B;
 
 ## Picture
 
-![cat](test/cat.jpg){data-title="title" data-description="description" width="30%"}
-![cat](test/cat.jpg){data-description="description" width="30%"}
+![cat](test/cat.jpg){data-title="title" data-description="description" width="40%" align=right loading=lazy}
+![cat](test/cat.jpg){data-description="description" width="30%" loading=lazy}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
