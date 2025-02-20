@@ -45,9 +45,8 @@ tags:
 
 - Item 1
 - Item 2
-
-  - Item 2a
-  - Item 2b
+    - Item 2a
+    - Item 2b
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] this is a complete item
@@ -98,4 +97,4 @@ A-->B;
 ![cat](test/cat.jpg){data-title="title" data-description="description" width="40%" align=right loading=lazy}
 ![cat](test/cat.jpg){data-description="description" width="30%" loading=lazy}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
