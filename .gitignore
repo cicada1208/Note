@@ -3,3 +3,4 @@ site/
 
 # pip install .
 *.egg-info/
+build/

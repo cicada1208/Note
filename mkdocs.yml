@@ -7,7 +7,7 @@ repo_name: cicada1208/Note
 edit_uri: edit/main/docs/
 nav:
   - Home: index.md
-  - Test: test.md
+  - Basics: basics.md
   - Tags: tags.md
 extra:
   social:
@@ -45,17 +45,19 @@ markdown_extensions:
   - toc:
       permalink: 🔗
   - attr_list
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  # - tables
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - md_in_html
   - pymdownx.blocks.caption
+  - footnotes
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
 plugins:
   - search
   - tags

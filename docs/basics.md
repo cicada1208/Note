@@ -22,28 +22,12 @@ tags:
 ## Font style
 
 - **Bold**
-
 - ~~Strikethrough~~
-
+- <del>Strikethrough</del>
 - ==high light==
-
 - 上標 30^th^
-
 - 下標 H~2~O
-
 - 數學式 $ 1 + 2 $
-
----
-
-## Link with tooltip {#link-tooltip}
-
-[Hover me](https://example.com "I'm a tooltip!")
-
----
-
-## Icon with tooltip
-
-:material-information-outline:{ title="Important information" }
 
 ---
 
@@ -56,19 +40,17 @@ tags:
 
 ---
 
-`key`
+`description lists key`
 
-:   value
+:   description 1.
 
-    description1
-
-    description2
+    description 2.
 
 ---
 
 - [x] Item 1
     - [ ] Item 1a
-- [ ] <del>Item 2</del>
+- [ ] Item 2
 - [x] Item 3
 
 ---
@@ -111,8 +93,24 @@ function add(x, y) {
 
 ---
 
+## Footnotes
+
 腳注 [^1]
-[^1]: This is a footnote
+[^1]:
+    This is a footnote.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+---
+
+## Link with tooltip {#link-tooltip}
+
+[Hover me](https://example.com "I'm a tooltip!")
+
+---
+
+## Icon with tooltip
+
+:material-information-outline:{ title="Important information" }
 
 ---
 
@@ -127,7 +125,7 @@ A-->B;
 
 ## Picture
 
-![cat](test/cat.jpg){data-title="title" data-description="description" width="40%" align=right loading=lazy}
-![cat](test/cat.jpg){data-description="description" width="30%" loading=lazy}
+![cat](basics/cat.jpg){data-title="title" data-description="description" width="40%" align=right loading=lazy}
+![cat](basics/cat.jpg){data-description="description" width="30%" loading=lazy}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
