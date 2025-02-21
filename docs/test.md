@@ -33,13 +33,19 @@ tags:
 
 - 數學式 $ 1 + 2 $
 
+---
+
 ## Link with tooltip {#link-tooltip}
 
 [Hover me](https://example.com "I'm a tooltip!")
 
+---
+
 ## Icon with tooltip
 
 :material-information-outline:{ title="Important information" }
+
+---
 
 ## List
 
@@ -48,9 +54,24 @@ tags:
     - Item 2a
     - Item 2b
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] this is a complete item
-- [ ] this is an incomplete item
+---
+
+`key`
+
+:   value
+
+    description1
+
+    description2
+
+---
+
+- [x] Item 1
+    - [ ] Item 1a
+- [ ] <del>Item 2</del>
+- [x] Item 3
+
+---
 
 ## Table
 
@@ -59,12 +80,18 @@ tags:
 | Content from cell 1         | Content from cell 2 |
 | Content in the first column |                     |
 
+---
+
 ## Block
 
 使用 `行內代碼` 展示。
 
+---
+
 > We're living the future so
 > the present is our past.
+
+---
 
 ???+ note inline end "Customed Title"
 
@@ -74,14 +101,20 @@ tags:
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
+---
+
 ```javascript
 function add(x, y) {
   return x + y;
 }
 ```
 
+---
+
 腳注 [^1]
 [^1]: This is a footnote
+
+---
 
 ## Diagram
 
