@@ -63,6 +63,8 @@ tags:
 |  `GET`   | :material-check:     Fetch resource  |
 | `DELETE` | :material-close:     Delete resource |
 
+{{ read_excel('basics/table1.xlsx', engine='openpyxl', colalign=("center","right")) }}
+
 ---
 
 ## Block
