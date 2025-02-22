@@ -48,7 +48,7 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
-  # - tables
+  - tables
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -66,6 +66,9 @@ plugins:
   # - git-revision-date-localized:
   #     enable_creation_date: true
   #     type: iso_datetime
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 validation:
   absolute_links: ignore
   nav:
