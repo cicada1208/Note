@@ -19,15 +19,36 @@ tags:
 
 # Markdown basics & extensions
 
-## Font style
+## Font formatting
 
 - **Bold**
+- *Italic*
 - ~~Strikethrough~~
-- <del>Strikethrough</del>
-- ==high light==
-- 上標 30^th^
-- 下標 H~2~O
-- 數學式 $ 1 + 2 $
+- ^^Underline^^
+- Text with suggested changes: ==High light==
+- Text with suggested changes: {++added++}
+- Text with suggested changes: {--deleted--}
+- Text with suggested changes: combined into {~~one~>a single~~} operation
+- Text with suggested changes: {>>comments<<}
+- 上標: 30^th^
+- 下標: H~2~O
+- Keyboard keys: ++ctrl+alt+del++
+
+---
+
+## Math block syntax
+
+Blocks must be enclosed in `$$...$$` or `\[...\]` on separate lines.
+
+$$
+\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
+$$
+
+---
+
+## Math inline block syntax
+
+數學式 $1+2*3$
 
 ---
 
@@ -67,9 +88,23 @@ tags:
 |  `GET`   | :material-check:     Fetch resource  |
 | `DELETE` | :material-close:     Delete resource |
 
+/// caption | <
+Table Caption prepend: to place a caption directly before a block
+///
+
+/// table-caption
+Table Caption: to place a caption directly after a block
+///
+
+---
+
 ## Table by import file
 
 {{ read_excel('basics/table1.xlsx', engine='openpyxl', colalign=("center","right")) }}
+
+/// table-caption
+Table Caption: to place a caption directly after a block
+///
 
 ---
 
