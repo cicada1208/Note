@@ -33,14 +33,16 @@ tags:
 
 ## List
 
-1. Item 1
-2. Item 2
-    - Item 2a
-    - Item 2b
+1. ordered list 1
+2. ordered list 2
+    - unordered list 2a
+    - unordered list 2b
 
 ---
 
-`description lists key`
+## Description list
+
+`key`
 
 :   description 1.
 
@@ -48,10 +50,12 @@ tags:
 
 ---
 
-- [x] Item 1
-    - [ ] Item 1a
-- [ ] Item 2
-- [x] Item 3
+## Task list
+
+- [x] task list 1
+    - [ ] task list 1a
+- [ ] task list 2
+- [x] task list 3
 
 ---
 
@@ -63,30 +67,38 @@ tags:
 |  `GET`   | :material-check:     Fetch resource  |
 | `DELETE` | :material-close:     Delete resource |
 
+## Table by import file
+
 {{ read_excel('basics/table1.xlsx', engine='openpyxl', colalign=("center","right")) }}
 
 ---
 
-## Block
+## Inline code
 
 使用 `行內代碼` 展示。
 
 ---
+
+## Introduction
 
 > We're living the future so
 > the present is our past.
 
 ---
 
-???+ note inline end "Customed Title"
+## Admonition
+
+???+ note inline end "Admonition Title"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-!!! tip "Customed Title"
+!!! tip "Admonition Title"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ---
+
+## Code block
 
 ```javascript
 function add(x, y) {
@@ -96,9 +108,9 @@ function add(x, y) {
 
 ---
 
-## Footnotes
+## Footnote
 
-腳注 [^1]
+注腳 [^1]
 [^1]:
     This is a footnote.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
