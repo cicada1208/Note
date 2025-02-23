@@ -135,7 +135,7 @@ Table Caption: to place a caption directly after a block
 
 ## Code block
 
-```javascript
+``` javascript linenums="1"
 function add(x, y) {
   return x + y;
 }
@@ -166,7 +166,7 @@ function add(x, y) {
 
 ## Diagram
 
-```mermaid
+``` mermaid
 graph LR
 A-->B;
 ```
