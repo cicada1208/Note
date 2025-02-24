@@ -100,7 +100,7 @@ Table Caption: to place a caption directly after a block
 
 ## Table by import file
 
-{{ read_excel('basics/table1.xlsx', engine='openpyxl', colalign=("center","right")) }}
+{{ read_excel('basics/table.xlsx', engine='openpyxl', colalign=("center","right")) }}
 
 /// table-caption
 Table Caption: to place a caption directly after a block
@@ -135,11 +135,19 @@ Table Caption: to place a caption directly after a block
 
 ## Code block
 
-``` javascript linenums="1"
+``` javascript title="add.js" linenums="10" hl_lines="1 3"
 function add(x, y) {
-  return x + y;
+  return x + y; 
 }
 ```
+
+``` yaml
+theme:
+  features:
+    - content.code.annotate # (1)
+```
+
+1. :man_raising_hand: Code annotation!
 
 ---
 
