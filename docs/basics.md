@@ -33,6 +33,7 @@ tags:
 - 上標: 30^th^
 - 下標: H~2~O
 - Keyboard keys: ++ctrl+alt+del++
+- --> <-- <--> =/= 1st 2nd 1/4
 
 ---
 
@@ -98,7 +99,7 @@ Table Caption: to place a caption directly after a block
 
 ---
 
-## Table by import file
+## Table with external content
 
 {{ read_excel('basics/table.xlsx', engine='openpyxl', colalign=("center","right")) }}
 
@@ -148,6 +149,14 @@ theme:
 ```
 
 1. :man_raising_hand: Code annotation!
+
+## Code block with external content
+
+``` sql
+--8<-- "basics/sql.sql"
+```
+
+--8<-- "basics/basics-sub-content.md"
 
 ---
 

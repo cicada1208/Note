@@ -60,7 +60,8 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path: ["docs"]
   - md_in_html
   - pymdownx.blocks.caption
   - footnotes
@@ -69,6 +70,9 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.critic
   - pymdownx.keys
+  - pymdownx.smartsymbols:
+      fractions: false
+      ordinal_numbers: false
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.emoji:
