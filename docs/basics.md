@@ -19,7 +19,7 @@ tags:
 
 # Markdown basics & extensions
 
-## Font formatting
+## Formatting
 
 - **Bold**
 - *Italic*
@@ -109,6 +109,36 @@ Table Caption: to place a caption directly after a block
 
 ---
 
+## Code block
+
+``` javascript title="add.js" linenums="10" hl_lines="1 3"
+function add(x, y) {
+  return x + y; 
+}
+```
+
+``` yaml
+theme:
+  features:
+    - content.code.annotate # (1)
+```
+
+1. :man_raising_hand: Code annotation!
+
+---
+
+## Code block with external content
+
+``` sql
+--8<-- "basics/sql.sql"
+```
+
+---
+
+--8<-- "basics/basics-sub-content.md"
+
+---
+
 ## Inline code
 
 使用 `行內代碼` 展示。
@@ -134,29 +164,13 @@ Table Caption: to place a caption directly after a block
 
 ---
 
-## Code block
+## Tooltip {#anchor-changed}
 
-``` javascript title="add.js" linenums="10" hl_lines="1 3"
-function add(x, y) {
-  return x + y; 
-}
-```
-
-``` yaml
-theme:
-  features:
-    - content.code.annotate # (1)
-```
-
-1. :man_raising_hand: Code annotation!
-
-## Code block with external content
-
-``` sql
---8<-- "basics/sql.sql"
-```
-
---8<-- "basics/basics-sub-content.md"
+- [Link tooltip](./basics.md/#anchor-changed "link tooltip")
+- Icon tooltip: :material-information-outline:{ title="icon tooltip" }
+- Abbreviation tooltip: The HTML specification is maintained by the W3C.
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
 
 ---
 
@@ -166,18 +180,6 @@ theme:
 [^1]:
     This is a footnote.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
----
-
-## Link with tooltip {#link-tooltip}
-
-[Hover me](https://example.com "I'm a tooltip!")
-
----
-
-## Icon with tooltip
-
-:material-information-outline:{ title="Important information" }
 
 ---
 

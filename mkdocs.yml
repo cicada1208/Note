@@ -53,18 +53,21 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.blocks.caption
   - pymdownx.highlight:
       auto_title: true
       linenums: true
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.inlinehilite
   - pymdownx.snippets:
       base_path: ["docs"]
+  - pymdownx.tabbed:
+      alternate_style: true
   - md_in_html
-  - pymdownx.blocks.caption
   - footnotes
+  - abbr
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
