@@ -34,6 +34,7 @@ theme:
     - content.tooltips
     - content.action.edit
     - content.action.view
+    - content.tabs.link
     - navigation.footer
     - navigation.instant
     - navigation.instant.progress
@@ -47,8 +48,7 @@ markdown_extensions:
       permalink: 🔗
   - attr_list
   - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - pymdownx.tasklist
   - tables
   - admonition
   - pymdownx.details
@@ -65,6 +65,10 @@ markdown_extensions:
       base_path: ["docs"]
   - pymdownx.tabbed:
       alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - md_in_html
   - footnotes
   - abbr
