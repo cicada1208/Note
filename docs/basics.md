@@ -1,5 +1,5 @@
 ---
-# the front matters of Markdown Preview Enhanced
+# the metadata of Markdown Preview Enhanced
 html:
   embed_local_images: false
   embed_svg: false
@@ -11,7 +11,7 @@ print_background: true
 export_on_save:
   html: true
 
-# the front matters of Material for MkDocs
+# the metadata of Material for MkDocs
 tags:
   - Basic
   - Extension
