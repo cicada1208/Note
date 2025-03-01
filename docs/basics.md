@@ -111,7 +111,7 @@ Table Caption: to place a caption directly after a block
 
 ## Tooltip {#anchor-changed}
 
-- [Link tooltip](./basics.md/#anchor-changed "link tooltip")
+- [Link tooltip :fontawesome-solid-paper-plane:](./basics.md/#anchor-changed "link tooltip"){ .md-button .md-button--primary }
 - Icon tooltip: :material-information-outline:{ title="icon tooltip" }
 - Abbreviation tooltip: The HTML specification is maintained by the W3C.
 *[HTML]: Hyper Text Markup Language
