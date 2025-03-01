@@ -169,9 +169,11 @@ Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
 
 ``` javascript title="add.js" linenums="10" hl_lines="1 3"
 function add(x, y) {
-  return x + y; 
+  return x + y; // (1)
 }
 ```
+
+1. :man_raising_hand: code annotation!
 
 ``` yaml
 theme:
@@ -218,6 +220,13 @@ theme:
       return 0;
     }
     ```
+
+=== "Tab 3"
+
+    Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
+    { .annotate }
+
+    1.  :man_raising_hand: I'm an annotation!
 
 ---
 
