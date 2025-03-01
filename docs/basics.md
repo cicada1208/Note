@@ -25,7 +25,7 @@ tags:
 - *Italic*
 - ~~Strikethrough~~
 - ^^Underline^^
-- Text with suggested changes: ==High light==
+- Text with suggested changes: ==high light==
 - Text with suggested changes: {++added++}
 - Text with suggested changes: {--deleted--}
 - Text with suggested changes: combined into {~~one~>a single~~} operation
@@ -109,33 +109,31 @@ Table Caption: to place a caption directly after a block
 
 ---
 
-## Code block
+## Tooltip {#anchor-changed}
 
-``` javascript title="add.js" linenums="10" hl_lines="1 3"
-function add(x, y) {
-  return x + y; 
-}
-```
-
-``` yaml
-theme:
-  features:
-    - content.code.annotate # (1)
-```
-
-1. :man_raising_hand: Code annotation!
+- [Link tooltip](./basics.md/#anchor-changed "link tooltip")
+- Icon tooltip: :material-information-outline:{ title="icon tooltip" }
+- Abbreviation tooltip: The HTML specification is maintained by the W3C.
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
 
 ---
 
-## Code block with external content
+## Annotation
 
-``` sql
---8<-- "basics/sql.sql"
-```
+Lorem ipsum dolor sit amet, (1) consectetur adipiscing elit.
+{ .annotate }
+
+1. :man_raising_hand: I'm an **annotation**!
 
 ---
 
---8<-- "basics/basics-sub-content.md"
+## Footnote
+
+注腳 [^1]
+[^1]:
+    This is a footnote.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ---
 
@@ -158,9 +156,42 @@ theme:
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-!!! tip "Admonition Title"
+!!! tip annotate "Admonition Title (1)"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Lorem ipsum dolor sit amet, (2) consectetur adipiscing elit.
+
+1. :man_raising_hand: I'm an annotation!
+2. :woman_raising_hand: I'm an annotation as well!
+
+---
+
+## Code block
+
+``` javascript title="add.js" linenums="10" hl_lines="1 3"
+function add(x, y) {
+  return x + y; 
+}
+```
+
+``` yaml
+theme:
+  features:
+    - content.code.annotate # (1)
+```
+
+1. :man_raising_hand: code annotation!
+
+---
+
+## Code block with external content
+
+``` sql
+--8<-- "basics/sql.sql"
+```
+
+---
+
+--8<-- "basics/basics-sub-content.md"
 
 ---
 
@@ -187,25 +218,6 @@ theme:
       return 0;
     }
     ```
-
----
-
-## Tooltip {#anchor-changed}
-
-- [Link tooltip](./basics.md/#anchor-changed "link tooltip")
-- Icon tooltip: :material-information-outline:{ title="icon tooltip" }
-- Abbreviation tooltip: The HTML specification is maintained by the W3C.
-*[HTML]: Hyper Text Markup Language
-*[W3C]: World Wide Web Consortium
-
----
-
-## Footnote
-
-注腳 [^1]
-[^1]:
-    This is a footnote.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ---
 
